@@ -1,0 +1,93 @@
+/* Header Section*/
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.logo {
+    width: 22%;
+    padding: 1%;
+    text-align: center;
+}
+
+header {
+    align-content: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+/* Intro and Howdy Section*/
+
+.heroImg {
+    padding: 25px;
+    display: flex;
+    text-align: left;
+    position: relative;
+    height: 600px;
+}
+
+.content {
+    display: flex;
+    margin: 1px;
+}
+
+.IntroText {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+h1 {
+    color: #000000;
+    text-align: left;
+    font-size: 10vw;
+    font-family: 'Playfair Display'
+}
+
+p {
+    color:#000000;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 5px 30px 5px 30px;
+}
+
+/* Projects Section*/
+
+.ProjectsSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-template-rows: 300px;
+    align-items: center;
+    margin: 0px 25px 0px 25px;
+}
+
+.ProjectItem {
+    display: flex;
+    width: 1fr;
+    height: 200px;
+    background-color: green;
+    justify-content: space-around;
+}
+
+/* Footer Section*/
+
+footer {
+    display: flex;
+    width: 99%;
+    padding: 4%;
+    justify-content: end;
+    align-items: center;
+}
